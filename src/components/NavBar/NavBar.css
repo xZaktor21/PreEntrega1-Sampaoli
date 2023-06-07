@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid #000;
+}
+  
+.logo {
+    margin-right: auto;
+    margin-left: 20px;
+    font-size: 34px;
+    font-weight: 700;
+}
+  
+.nav-list {
+    list-style: none;
+    margin-right: 200px; /* Espacio entre la lista y el JSX */
+}
+  
+.nav-list li {
+    display: inline; 
+    margin-right: 30px; 
+}
